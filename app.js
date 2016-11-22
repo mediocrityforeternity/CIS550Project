@@ -13,7 +13,7 @@ var app = express();
 
 // mongodb connection
 var mongo = require('mongoose');
-mongo.connect('mongodb://kirasev:Kirasev101@ds159237.mlab.com:59237/sqlympics');
+mongo.connect('');
 
 require('./models/Comments');
 require('./models/Posts');
